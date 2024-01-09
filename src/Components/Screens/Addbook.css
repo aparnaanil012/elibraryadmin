@@ -1,0 +1,30 @@
+/* Addroom.css */
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 80%;
+  }
+  
+  .column {
+    flex: 0 1 45%; /* Adjust the width as needed */
+    display: flex;
+    flex-direction: column; /* Ensure the items stack vertically */
+  }
+  
+  .input-field,
+  .select-field {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+  }
+  
+  .button {
+    margin-top: 10px; /* Add margin to separate the button from the input fields */
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
